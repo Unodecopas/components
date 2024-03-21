@@ -1,8 +1,10 @@
 const Button = ({ onClick, children }) => {
   return (
-    <button onClick={onClick}>
-      {children}
-    </button>
+    <div>
+      <button onClick={onClick}>
+        {children}
+      </button>
+    </div>
   )
 }
 
